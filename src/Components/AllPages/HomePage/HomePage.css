@@ -1,0 +1,38 @@
+.home-top-container{
+
+background-image: url("https://kamleshyadav.com/wp/astrologer/demo1/wp-content/uploads/sites/2/2021/03/bg1-50x100.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.home-top-row{
+    
+    display: flex;
+    
+    
+    
+
+}
+
+.home-top-row-col-one{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+width:"30%"
+}
+
+.rotate {
+    animation: rotation 10s infinite linear;
+    object-fit: cover;
+  }
+
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
